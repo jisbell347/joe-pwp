@@ -16,7 +16,7 @@
 			<h2>Goal</h2>
 				<p>The main goal of this project is to initiate contact with potential employers, collaborators and
 				clients through the contact links on the webpage. The other goal of this project is to showcase my skills and
-				abilities in professional web development</p>
+				abilities in professional front and back-end web development</p>
 		</div>
 		<!-- Persona -->
 		<div>
