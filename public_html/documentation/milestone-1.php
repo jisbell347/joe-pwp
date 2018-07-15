@@ -20,7 +20,18 @@
 		</div>
 		<!-- Persona -->
 		<div>
-
+			<h2>Persona</h2>
+			<img src="./employer.jpg" alt="Picture of an Example Employer">
+			<h3>Name: </h3>
+				<p>Owen Moore</p>
+			<h3>Age: </h3>
+				<p>32</p>
+			<h3>Profession</h3>
+			<p>Owen recently founded a popular start-up called Raven, Inc. which provides professional, front-end websites
+				for a wide-range of small and medium-scale companies in various industries</p>
+			<h3>Technology</h3>
+			<p>He is very comfortable with technology and owns a 13.3" MacBook Air with an i5 processor along with an
+				iPhone X with an unlimted 4G connection. He always tries to get the latest versions if possible.</p>
 		</div>
 	</body>
 </html>
