@@ -30,7 +30,7 @@
 				if desired. It will also include links to my email address and professional social media profiles: Github,
 				Linkedin, and Twitter. All of my social media profiles will also be added to the footer section of the page via icons.</p>
 		</div>
-		<h3>Wireframe Mockup</h3>
+		<h3>Wireframe</h3>
 		<p>Featured is a conceptual model for what I envision the final product to look like with some possible minor changes. A mobile version and a desktop version are displayed. The wireframes were made using
 			<a href="https://balsamiq.com">Balsamiq</a></p>
 		<div>
