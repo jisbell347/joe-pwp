@@ -35,9 +35,11 @@
 			<a href="https://balsamiq.com">Balsamiq</a></p>
 		<div>
 			<div>
+				<h4>Mobile Version</h4>
 				<img src="../images/mobile-mockup.png" alt="Mockup of Website for Mobile Version" />
 			</div>
 			<div>
+				<h4>Desktop Version</h4>
 				<img src="../images/desktop-mockup.png" alt="Mockup of Website for Desktop Version" />
 			</div>
 		</div>
