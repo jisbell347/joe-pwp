@@ -6,6 +6,7 @@
 	</head>
 	<body>
 		<h1>Milestone 2 Content Strategy</h1>
+		<p>My site will be a landing page that will feature the following sections</p>
 		<div>
 			<h2>Welcome</h2>
 			<p>A welcome message about myself and my role in web development. The message will be displayed over a large background image of a workspace</p>
