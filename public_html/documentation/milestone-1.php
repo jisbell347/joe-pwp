@@ -21,7 +21,7 @@
 		<!-- Persona -->
 		<div>
 			<h2>Persona</h2>
-			<img src="./employer.jpg" alt="Picture of an Example Employer">
+			<img src="../images/employer.jpg" alt="Picture of an Example Employer">
 			<h3>Name: </h3>
 				<p>Owen Moore</p>
 			<h3>Age: </h3>
