@@ -20,7 +20,7 @@
 		</div>
 		<div>
 			<h3>Portfolio</h3>
-			<p>This portfolio will ideally be a responsive image gallery on mobile devices and an image carosel on desktop
+			<p>This portfolio will ideally be a responsive image gallery on mobile devices and an image carousel on desktop
 				that features 4-6 examples of my work. The examples will open a modal window when clicked that will display
 				my role and contributions to each project with references to the technology used.</p>
 		</div>
