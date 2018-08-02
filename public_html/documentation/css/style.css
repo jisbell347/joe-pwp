@@ -6,7 +6,7 @@
 
 .jumbotron-fluid {
 	background-color: transparent;
-	height: 85vh;
+	height: 100vh;
 	color: white;
 	text-shadow: 5px 5px 8px rgba(0,0,0,0.8);
 }
@@ -18,3 +18,9 @@
 	height: 100%;
 	z-index: -5;
 }
+
+.about-me {
+	background-color: #1b1c1b;
+}
+
+
