@@ -1,0 +1,7 @@
+.jumbotron-fluid {
+	background: url("../images/coffee-cup-on-decking.jpg"), bottom, no-repeat;
+	background-size: cover;
+	height: 85vh;
+	color: white;
+	text-shadow: 5px 5px 8px rgba(0,0,0,0.8);
+}
