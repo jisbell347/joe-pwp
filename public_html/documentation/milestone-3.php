@@ -22,9 +22,8 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav ml-auto">
-					<a class="nav-item nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="#">Portfolio</a>
-					<a class="nav-item nav-link" href="#">Skillset</a>
+					<a class="nav-item nav-link border-right border-light-50" href="#about">About <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link border-right border-light-50" href="#">Portfolio</a>
 					<a class="nav-item nav-link" href="#">Contact</a>
 				</div>
 			</div>
@@ -38,7 +37,7 @@
 		</div>
 		<div class="container-fluid" id="about">
 			<div class="row about-me justify-content-center">
-				<h3 class="text-light display-3">About Me</h3>
+				<h3 class="text-light display-4 pt-4">About Me</h3>
 			</div>
 			<div class="row about-me p-5">
 				<div class="col-md-3 offset-1 mr-2">
@@ -53,12 +52,12 @@
 				<div class="col-md-4">
 					<h3 class="text-light text-center display-5">Skillset <i class="fas fa-code text-light"></i></h3>
 					<ul class="list-group">
-						<li class="list-group-item list-group-item-dark"><i class="fab fa-html5 text-light"> HTML 5</i></li>
-						<li class="list-group-item list-group-item-dark"><i class="fab fa-css3 text-light"> CSS 3</i></li>
-						<li class="list-group-item list-group-item-dark"><i class="fab fa-js text-light"></i> JavaScript</li>
-						<li class="list-group-item list-group-item-dark"><i class="fab fa-php text-light"> Php</i></li>
-						<li class="list-group-item list-group-item-dark"><i class="fab fa-angular text-light"></i> Angular 5</li>
-						<li class="list-group-item list-group-item-dark"><i class="fas fa-database text-light"></i> mySQL</li>
+						<li class="list-group-item"><i class="fab fa-html5 text-light"> HTML 5</i></li>
+						<li class="list-group-item"><i class="fab fa-css3 text-light"> CSS 3</i></li>
+						<li class="list-group-item"><i class="fab fa-js text-light"></i> JavaScript</li>
+						<li class="list-group-item"><i class="fab fa-php text-light"> Php</i></li>
+						<li class="list-group-item"><i class="fab fa-angular text-light"></i> Angular 5</li>
+						<li class="list-group-item"><i class="fas fa-database text-light"></i> mySQL</li>
 					</ul>
 				</div>
 			</div>
