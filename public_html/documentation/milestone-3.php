@@ -44,7 +44,7 @@
 					<img src="images/self-portrait.jpg" alt="Picture of Self" class="img-fluid rounded-circle p-4" width="350px" height="350px">
 				</div>
 				<div class="col-md-3">
-					<p class="text-light text-center border-right border-light pr-5">Hi, my name is Joe and I am a professional, full-stack web developer. I recently graduated from the
+					<p class="about-text text-light text-center border-light pr-5">Hi, my name is Joe and I am a professional, full-stack web developer. I recently graduated from the
 						Deep Dive Bootcamp at the CNM Stemulus Center. I am passionate about coding and I love learning new
 						languages. As a life-long native of the Albuquerque area, I want to help grow the developing tech industry
 						here. Check out my portfolio or feel free to contact me anytime.</p>
