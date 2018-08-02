@@ -22,6 +22,17 @@
 .about-me {
 	background-color: #1b1c1b;
 }
+.about-text{
+	border-bottom: none;
+	border-right: white 1px solid;
+}
+
+@include media-breakpoint-up(sm) {
+	.about-text {
+		border-right: none;
+		border-bottom: white 1px solid;
+	}
+}
 
 .list-group-item {
 	text-align: center;
