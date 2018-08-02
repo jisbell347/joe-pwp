@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Caveat|Kalam" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 		<!-- JQuery first, then Popper.js, then Bootstrap.js -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
