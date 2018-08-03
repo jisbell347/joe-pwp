@@ -76,6 +76,16 @@
 					<h3 class="display-4">Portfolio</h3>
 					<p>Examples of my previous work: </p>
 				</div>
+				<div class="row">
+					<div class="card col-md-3 offset-md-3 p-4 mb-5">
+						<img class="card-img-top" src="images/jcangus-ranch.jpg" alt="JCAngus Ranch Site Photo">
+						<div class="card-body">
+							<h5 class="card-title">JC-Angus</h5>
+							<p class="card-text">Beginning Website built for my family's ranching business</p>
+							<a href="#" class="btn btn-primary">Visit Project</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
