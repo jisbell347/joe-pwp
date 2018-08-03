@@ -22,15 +22,16 @@
 .about-me {
 	background-color: #1b1c1b;
 }
-.about-text{
-	border-bottom: none;
-	border-right: white 1px solid;
+.about-text, .nav-item{
+	border-right: none;
+	border-bottom: white 1px solid;
+	padding-bottom: 5px;
 }
 
-@include media-breakpoint-up(sm) {
-	.about-text {
-		border-right: none;
-		border-bottom: white 1px solid;
+@media (min-width: 768px) {
+	.about-text, .nav-item {
+		border-bottom: none;
+		border-right: white 1px solid;
 	}
 }
 
