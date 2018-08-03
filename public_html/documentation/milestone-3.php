@@ -22,8 +22,8 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav ml-auto">
-					<a class="nav-item nav-link border-right border-light-50" href="#about">About <span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link border-right border-light-50" href="#">Portfolio</a>
+					<a class="nav-item nav-link " href="#about">About <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#">Portfolio</a>
 					<a class="nav-item nav-link" href="#">Contact</a>
 				</div>
 			</div>
@@ -50,15 +50,23 @@
 						here. Check out my portfolio or feel free to contact me anytime.</p>
 				</div>
 				<div class="col-md-4">
-					<h3 class="text-light text-center display-5">Skillset <i class="fas fa-code text-light"></i></h3>
-					<ul class="list-group">
-						<li class="list-group-item"><i class="fab fa-html5 text-light"> HTML 5</i></li>
-						<li class="list-group-item"><i class="fab fa-css3 text-light"> CSS 3</i></li>
-						<li class="list-group-item"><i class="fab fa-js text-light"></i> JavaScript</li>
-						<li class="list-group-item"><i class="fab fa-php text-light"> Php</i></li>
-						<li class="list-group-item"><i class="fab fa-angular text-light"></i> Angular 5</li>
-						<li class="list-group-item"><i class="fas fa-database text-light"></i> mySQL</li>
-					</ul>
+					<div class="row">
+						<h3 class="text-light text-center display-5">Skillset <i class="fas fa-code text-light"></i></h3>
+					</div>
+					<div class="col-sm-4">
+						<ul class="list-group">
+							<li class="list-group-item"><i class="fab fa-html5 text-light"> HTML 5</i></li>
+							<li class="list-group-item"><i class="fab fa-css3 text-light"> CSS 3</i></li>
+							<li class="list-group-item"><i class="fab fa-js text-light"></i> JavaScript</li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul class="list-group">
+							<li class="list-group-item"><i class="fab fa-php text-light"> Php</i></li>
+							<li class="list-group-item"><i class="fab fa-angular text-light"></i> Angular 5</li>
+							<li class="list-group-item"><i class="fas fa-database text-light"></i> mySQL</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
