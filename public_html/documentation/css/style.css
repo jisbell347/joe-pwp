@@ -20,7 +20,8 @@
 }
 
 .about-me {
-	background-color: #1b1c1b;
+	background: url("../images/black-wood.jpg"), no-repeat;
+	background-size: cover;
 }
 .about-text, .nav-item{
 	border-right: none;
