@@ -50,23 +50,31 @@
 						here. Check out my portfolio or feel free to contact me anytime.</p>
 				</div>
 				<div class="col-md-4">
-					<div class="row">
+					<div class="row justify-content-center">
 						<h3 class="text-light text-center display-5">Skillset <i class="fas fa-code text-light"></i></h3>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 mx-auto float-left">
 						<ul class="list-group">
 							<li class="list-group-item"><i class="fab fa-html5 text-light"> HTML 5</i></li>
 							<li class="list-group-item"><i class="fab fa-css3 text-light"> CSS 3</i></li>
 							<li class="list-group-item"><i class="fab fa-js text-light"></i> JavaScript</li>
 						</ul>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 mx-auto float-right">
 						<ul class="list-group">
 							<li class="list-group-item"><i class="fab fa-php text-light"> Php</i></li>
-							<li class="list-group-item"><i class="fab fa-angular text-light"></i> Angular 5</li>
+							<li class="list-group-item"><i class="fab fa-angular text-light"></i> Angular5</li>
 							<li class="list-group-item"><i class="fas fa-database text-light"></i> mySQL</li>
 						</ul>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid pt-5">
+			<div class="row justify-content-center portfolio-section">
+				<div class="text-center pt-5">
+					<h3 class="display-4">Portfolio</h3>
+					<p>Examples of my previous work: </p>
 				</div>
 			</div>
 		</div>
