@@ -89,4 +89,9 @@ html, body {
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
+.contact-section {
+	background: url("../images/black-wood.jpg"), no-repeat;
+	background-size: cover;
+}
+
 
