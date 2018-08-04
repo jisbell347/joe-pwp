@@ -100,12 +100,27 @@
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<img class="d-block w-100 img-fluid" src="images/jcangus-ranch.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+								<div class="carousel-caption">
+									<h5>JC Angus</h5>
+									<p  class= "d-none d-md-block">Beginning Website built for my family's cattle ranch.</p>
+									<button type="button" class="btn btn-light" data-toggle="modal" data-target="#jcModal">
+										Visit Project
+									</button>
+								</div>
+							</div>
+							<div class="carousel-item taco-bear">
+								<img class="d-block w-100 img-fluid" src="images/taco-bear.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide" />
+								<div class="carousel-caption">
+									<h5>Taco Bear</h5>
+									<p class= " d-none d-md-block">A fun landing that displays the flexibility and power of Bootstrap.</p>
+									<button type="button" class="btn btn-light" data-toggle="modal" data-target="#tacoBearModal">
+										Visit Project
+									</button>
+								</div>
+
 							</div>
 							<div class="carousel-item">
-								<img class="d-block w-100 img-fluid" src="images/taco-bear.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+								<img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide" />
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
