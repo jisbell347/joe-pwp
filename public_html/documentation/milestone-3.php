@@ -32,7 +32,7 @@
 			<img src="images/coffee-cup-on-decking.jpg" alt="Jumbotron BG Image">
 			<div class="container pt-5">
 				<h1 class="display-1 pt-5">Joseph Isbell</h1>
-				<p class="lead">Professional Web Developer. Coffee Lover</p>
+				<p class="lead">Professional Web Developer | Coffee Lover</p>
 			</div>
 		</div>
 		<div class="container-fluid" id="about">
@@ -125,7 +125,7 @@
 								<img class="d-block w-100 img-fluid" src="images/taco-bear.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide" />
 								<div class="carousel-caption">
 									<h5>Taco Bear</h5>
-									<p class= " d-none d-md-block">A fun landing that displays the flexibility and power of Bootstrap.</p>
+									<p class= " d-none d-md-block">A fun landing page that displays the flexibility and power of Bootstrap.</p>
 									<button type="button" class="btn btn-light" data-toggle="modal" data-target="#tacoBearModal">
 										Visit Project
 									</button>
