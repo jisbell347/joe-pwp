@@ -90,16 +90,32 @@
 					</div>
 					<!--End JC-Angus Ranch Card -->
 				</div>
-				<div class="container-fluid">
-					<div class="carousel-item d-none d-md-block p-3">
-						<img src="images/jcangus-ranch.jpg" alt="JC Angus Ranch Site" class="img-fluid">
-						<div class="carousel-caption">
-							<h5>JC Angus Ranch</h5>
-							<p class="d-none d-lg-block">Beginning site built for my family's cattle ranch business.</p>
-							<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#jcModal">
-								Visit Project
-							</button>
+				<div class="container-fluid d-none d-md-block">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100 img-fluid" src="images/jcangus-ranch.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100 img-fluid" src="images/taco-bear.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+							</div>
 						</div>
+						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
 				</div>
 				<!-- Modal JC-Angus Ranch-->
@@ -124,6 +140,31 @@
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
 								<button type="button" class="btn btn-light"><a href="http://jcangus.com">Go to Site</a></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal Taco Bear-->
+				<div class="modal fade" id="tacoBearModal" tabindex="-1" role="dialog" aria-labelledby="tacoBearModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="tacoBearModalLabel">Taco Bear</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<img src="images/taco-bear.jpg" alt="Image of Taco Bear Challenge" class="img-fluid">
+								<hr>
+								<p>This is a fun landing page created for a challenge during Deep Dive Bootcamp.</p>
+								<p>The website is used to display the power and flexibility of Bootstrap's grid system.
+									This site was created for mobile-first design and uses bootstrap components along with
+									custom css styling. This site can be further expanded to add additional pages and features.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-light"><a href="bootcamp-coders.cnm.edu/~jisbell1/bootstrap-4-challenge">Go to Site</a></button>
 							</div>
 						</div>
 					</div>
