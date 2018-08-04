@@ -1,11 +1,16 @@
+html, body {
+	overflow-x: hidden;
+}
+
 .navbar {
+	background-image: url("../images/black-wood.jpg");
 	width: 100%;
 	position: fixed;
 	z-index: 5;
 }
 
 .nav-item {
-	box-shadow: 0 5px 5px rgba(0,0,0, 0.4);
+	box-shadow: 0 5px 5px rgba(82, 82, 82, 0.4);
 }
 
 .jumbotron-fluid {
@@ -52,6 +57,21 @@
 	background-size: cover;
 	color: white;
 	text-shadow: 5px 5px 8px rgba(0,0,0,0.8);
-	height: 100vh;
+	height: 100%;
 }
 
+.card {
+	background: url("../images/black-wood.jpg"), no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+#jcModal .modal-content {
+	background: url("../images/brown-wood.jpg");
+}
+
+#jcModal a {
+	color: #4b4746;
+	text-decoration: none;
+}
