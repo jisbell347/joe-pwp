@@ -77,12 +77,42 @@
 					<p>Examples of my previous work: </p>
 				</div>
 				<div class="row">
-					<div class="card col-md-3 offset-md-3 p-4 mb-5">
-						<img class="card-img-top" src="images/jcangus-ranch.jpg" alt="JCAngus Ranch Site Photo">
+				<!--JC-Angus Ranch Card-->
+					<div class="card col-md-3 offset-md-3 p-3 mx-auto mb-5">
+						<img class="card-img-top img-fluid" src="images/jcangus-ranch.jpg" alt="JCAngus Ranch Site Photo" width="200px" height="150">
 						<div class="card-body">
 							<h5 class="card-title">JC-Angus</h5>
 							<p class="card-text">Beginning Website built for my family's ranching business</p>
-							<a href="#" class="btn btn-primary">Visit Project</a>
+							<button type="button" class="btn btn-light" data-toggle="modal" data-target="#jcModal">
+								Visit Project
+							</button>
+						</div>
+					</div>
+					<!--End JC-Angus Ranch Card -->
+				</div>
+				<!-- Modal JC-Angus Ranch-->
+				<div class="modal fade" id="jcModal" tabindex="-1" role="dialog" aria-labelledby="jcModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="jcModalLabel">JC-Angus Ranch</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<img src="images/jcangus-ranch.jpg" alt="Image of JC-Angus Ranch" class="img-fluid">
+								<hr>
+								<p>This is the first website I created. The purpose of the project was to provide a modern website
+									for my family's cattle ranch.</p>
+								<p>The website itself was created based upon an example project by Jonas Schetmann. I used
+									custom css and html to create a unique project. The website uses only html and css to display
+									animations and effects</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-light"><a href="http://jcangus.com">Go to Site</a></button>
+							</div>
 						</div>
 					</div>
 				</div>
