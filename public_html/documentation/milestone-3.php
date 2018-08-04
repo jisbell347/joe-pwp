@@ -70,6 +70,7 @@
 				</div>
 			</div>
 		</div>
+<!--Container for portfolio section-->
 		<div class="container-fluid pt-5">
 			<div class="row justify-content-center portfolio-section">
 				<div class="text-center pt-5">
@@ -89,6 +90,18 @@
 						</div>
 					</div>
 					<!--End JC-Angus Ranch Card -->
+					<!--Taco Bear Card-->
+					<div class="card col-md-3 offset-md-3 p-3 mx-auto mb-5">
+						<img class="card-img-top img-fluid" src="images/taco-bear.jpg" alt="Taco Bear Site Photo" width="200px" height="150">
+						<div class="card-body">
+							<h5 class="card-title">Taco Bear Site</h5>
+							<p class="card-text">A fun landing page that displays the flexibility and power of Bootstrap.</p>
+							<button type="button" class="btn btn-light" data-toggle="modal" data-target="#tacoBearModal">
+								Visit Project
+							</button>
+						</div>
+					</div>
+					<!--End Taco Bear Card -->
 				</div>
 				<div class="container-fluid d-none d-md-block">
 					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -170,7 +183,7 @@
 								</button>
 							</div>
 							<div class="modal-body">
-								<img src="images/taco-bear.jpg" alt="Image of Taco Bear Challenge" class="img-fluid">
+								<img src="images/taco-bear2.jpg" alt="Image of Taco Bear Challenge" class="img-fluid">
 								<hr>
 								<p>This is a fun landing page created for a challenge during Deep Dive Bootcamp.</p>
 								<p>The website is used to display the power and flexibility of Bootstrap's grid system.
@@ -179,7 +192,7 @@
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-light"><a href="bootcamp-coders.cnm.edu/~jisbell1/bootstrap-4-challenge">Go to Site</a></button>
+								<button type="button" class="btn btn-light"><a href="https://bootcamp-coders.cnm.edu/~jisbell1/bootstrap-4-challenge/">Go to Site</a></button>
 							</div>
 						</div>
 					</div>
