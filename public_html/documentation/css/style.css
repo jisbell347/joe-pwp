@@ -81,7 +81,10 @@ html, body {
 	color: #4b4746;
 	text-decoration: none;
 }
-
+.carousel-item button {
+	text-shadow: 5px 1px 5px rgba(0,0,0,0.4);
+	box-shadow: 2px 5px 8px rgba(0,0,0,0.6);
+}
 .carousel-control-next-icon, .carousel-control-prev-icon {
 	background-color: rgba(0, 0, 0, 0.6);
 }
