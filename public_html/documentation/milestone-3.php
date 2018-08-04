@@ -161,7 +161,7 @@
 								<hr>
 								<p>This is the first website I created. The purpose of the project was to provide a modern website
 									for my family's cattle ranch.</p>
-								<p>The website itself was created based upon an example project by Jonas Schemdtmann. I used my own
+								<p>The website itself was created based upon an example project on Udemy by Jonas Schemdtmann. I used my own
 									custom css styling and html to create a unique project based upon the skills I acquired.
 									The website uses only html and css to display animations and effects</p>
 							</div>
