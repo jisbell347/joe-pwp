@@ -82,4 +82,8 @@ html, body {
 	text-decoration: none;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
 
