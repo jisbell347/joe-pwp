@@ -67,11 +67,19 @@ html, body {
 	text-align: center;
 }
 
-#jcModal .modal-content {
+.taco-bear p, .taco-bear h5 {
+	background-color: rgba(255,255,255, 0.8);
+	color: black;
+	text-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
+}
+
+#jcModal .modal-content, #tacoBearModal .modal-content {
 	background: url("../images/brown-wood.jpg");
 }
 
-#jcModal a {
+#jcModal a, #tacoBearModal a {
 	color: #4b4746;
 	text-decoration: none;
 }
+
+
