@@ -196,7 +196,7 @@
 			</div>
 		</div>
 		<!-- Contact Form -->
-		<div class="container-fluid contact-section mb-3">
+		<div class="container-fluid contact-section mb-5 pb-5">
 			<div class="row justify-content-center py-4">
 				<h4 class="display-4">Contact</h4>
 			</div>
@@ -260,10 +260,16 @@
 				</div>
 			</div>
 		</div>
-		<footer class="footer">
+		<footer class="footer py-3 fixed-bottom">
 			<div class="container">
-				<span><i class="fab fa-twitter"><a href="https://twitter.com/JoeIsbell8?lang=en"></a></i></span>
-				<span><i class="fab fa-github"><a href="https://github.com/jisbell347"></a></i></span>
+				<div class="row justify-content-center text-center">
+					<span class="footer-link"><a href="https://twitter.com/JoeIsbell8?lang=en"><i class="fab fa-twitter"></i></a></span>
+					<span class="footer-link"><a href="https://github.com/jisbell347"><i class="fab fa-github"></i></a></span>
+					<span class="footer-link"><a href="https://www.linkedin.com/in/joseph-isbell-5267b2163/"><i class="fab fa-linkedin"></i></a></span>
+				</div>
+				<div class="row justify-content-center text-center">
+					<p>Joe Isbell &copy; 2018</p>
+				</div>
 			</div>
 		</footer>
 	</body>

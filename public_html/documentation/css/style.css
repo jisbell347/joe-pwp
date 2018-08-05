@@ -95,5 +95,21 @@ html, body {
 	color: white;
 }
 
+.footer-link i {
+	font-size: 1rem;
+	color: white;
+	padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+	.footer-link i {
+		font-size: 2rem;
+	}
+}
+.footer {
+	color: white;
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
+
 
 
