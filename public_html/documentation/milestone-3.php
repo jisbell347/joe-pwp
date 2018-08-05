@@ -23,7 +23,7 @@
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav ml-auto">
 					<a class="nav-item nav-link " href="#about">About <span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="#">Portfolio</a>
+					<a class="nav-item nav-link" href="#portfolio">Portfolio</a>
 					<a class="nav-item nav-link" href="#">Contact</a>
 				</div>
 			</div>
@@ -71,8 +71,8 @@
 			</div>
 		</div>
 <!--Container for portfolio section-->
-		<div class="container-fluid pt-5">
-			<div class="row justify-content-center portfolio-section">
+		<div class="container-fluid py-5">
+			<div class="row justify-content-center portfolio-section" id="portfolio">
 				<div class="text-center pt-5">
 					<h3 class="display-4">Portfolio</h3>
 					<p>Examples of my previous work: </p>
@@ -103,12 +103,12 @@
 					</div>
 					<!--End Taco Bear Card -->
 				</div>
-				<div class="container-fluid d-none d-md-block">
+				<!-- Carousel -->
+				<div class="container-fluid d-none d-md-block pb-5">
 					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
@@ -130,10 +130,6 @@
 										Visit Project
 									</button>
 								</div>
-
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide" />
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -199,6 +195,77 @@
 				</div>
 			</div>
 		</div>
+		<!-- Contact Form -->
+		<div class="container-fluid contact-section mb-3">
+			<div class="row justify-content-center py-4">
+				<h4 class="display-4">Contact</h4>
+			</div>
+			<!-- TODO: fix form for mailer -->
+			<form id="contact-form" action="php/mailer.php" method="post" class="col-md-8 offset-2 mx-auto">
+				<div class="form-group">
+					<label for="contactFormName">Name</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fas fa-id-badge" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="text" class="form-control" id="contactFormName" name="contactFormName" placeholder="Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="contactFormEmail">Email</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fas fa-envelope-square" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="contactFormSubject">Subject</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fas fa-spinner" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Subject Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="contactFormMessage">Message</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fas fa-pencil-alt" aria-hidden="true"></i>
+							</span>
+						</div>
+						<textarea class="form-control" rows="5" id="contactFormMessage" name="contactFormMessage" placeholder="Enter Message for Joe Here"></textarea>
+					</div>
+				</div>
+				<!-- TODO: Get recaptcha API key -->
+				<!-- reCAPTCHA -->
+				<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+			</form>
+
+			<!--empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<span><i class="fab fa-twitter"><a href="https://twitter.com/JoeIsbell8?lang=en"></a></i></span>
+				<span><i class="fab fa-github"><a href="https://github.com/jisbell347"></a></i></span>
+			</div>
+		</footer>
 	</body>
 
 </html>
