@@ -1,8 +1,13 @@
+/*********************
+Global styling 
+********************* */
 html, body {
 	overflow-x: hidden;
 	font-family: 'Merienda', cursive;
 }
-
+/**********************
+Navigation section
+********************* */
 .navbar {
 	background-image: url("../images/black-wood.jpg");
 	width: 100%;
@@ -18,7 +23,9 @@ html, body {
 .nav-item {
 	box-shadow: 0 5px 5px rgba(82, 82, 82, 0.4);
 }
+/***********************
 
+* */
 .jumbotron-fluid {
 	background-color: transparent;
 	height: 100vh;
