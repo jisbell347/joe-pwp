@@ -29,6 +29,7 @@
 		<title>Joseph Isbell's Portfolio</title>
 	</head>
 	<body>
+		<!--Begin navigation elements-->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand" href="#"><img src="images/hot-coffee-rounded-cup-on-a-plate-from-side-view.png" alt="Credit to Flaticon for the image" class="img-fluid nav-icon ml-4"/></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,17 +43,23 @@
 				</div>
 			</div>
 		</nav>
+		<!-- End navigation elements -->
+		<!-- Begin Jumbotron section -->
 		<div class="jumbotron jumbotron-fluid pt-0">
 			<img src="images/coffee-cup-on-decking.jpg" alt="Jumbotron BG Image" />
+			<!-- Container for main jumbotron elements -->
 			<div class="container pt-5">
 				<h1 class="display-1 pt-5">Joseph Isbell</h1>
 				<p class="lead">Professional Web Developer | Coffee Lover</p>
 			</div>
 		</div>
+		<!-- End Jumbotron section -->
+		<!-- Begin About Me section -->
 		<div class="container-fluid" id="about">
 			<div class="row about-me justify-content-center">
 				<h3 class="text-light display-4 pt-4">About Me</h3>
 			</div>
+			<!-- Left side of about me section containing image and short paragraph -->
 			<div class="row about-me p-5">
 				<div class="col-lg-3 col-md-4 offset-1 mr-2 mb-3 about-img">
 					<img src="images/self-portrait.jpg" alt="Picture of Self" class="img-fluid rounded-circle p-4" width="350px" height="350px" />
@@ -63,6 +70,7 @@
 						languages. As a life-long native of the Albuquerque area, I want to help grow the developing tech industry
 						here. Check out my portfolio or feel free to contact me anytime.</p>
 				</div>
+				<!-- Right side of about me section containing skills -->
 				<div class="col-lg-4">
 					<div class="row justify-content-center">
 						<h3 class="text-light text-center display-5">Skillset <i class="fas fa-code text-light"></i></h3>
@@ -84,13 +92,16 @@
 				</div>
 			</div>
 		</div>
-<!--Container for portfolio section-->
+		<!-- End About Me section -->
+
+		<!--Begin portfolio section-->
 		<div class="container-fluid py-5">
 			<div class="row justify-content-center portfolio-section" id="portfolio">
 				<div class="text-center pt-5">
 					<h3 class="display-4">Portfolio</h3>
 					<p>Examples of my previous work: </p>
 				</div>
+				<!-- Mobile version of Portfolio section - websites are displayed using cards -->
 				<div class="row d-block d-md-none">
 				<!--JC-Angus Ranch Card-->
 					<div class="card col-md-3 offset-md-3 p-3 mx-auto mb-5">
@@ -117,14 +128,17 @@
 					</div>
 					<!--End Taco Bear Card -->
 				</div>
-				<!-- Carousel -->
+				<!-- Desktop version of Portfolio section - Websites are displayed as a carousel-->
 				<div class="container-fluid d-none d-md-block pb-5">
+					<!-- indicator located on the bottom of the carousel that states which image in the carousel the user is currently on -->
 					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 						</ol>
+						<!-- Main section of the carousel -->
 						<div class="carousel-inner">
+							<!-- JC Angus carousel version -->
 							<div class="carousel-item active">
 								<img class="d-block w-100 img-fluid" src="images/jcangus-ranch.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
 								<div class="carousel-caption">
@@ -135,6 +149,8 @@
 									</button>
 								</div>
 							</div>
+							<!-- End JC Angus carousel -->
+							<!-- Taco Bear carousel -->
 							<div class="carousel-item taco-bear">
 								<img class="d-block w-100 img-fluid" src="images/taco-bear.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide" />
 								<div class="carousel-caption">
@@ -145,7 +161,9 @@
 									</button>
 								</div>
 							</div>
+							<!-- End Taco Bear carousel -->
 						</div>
+						<!-- Carousel controls that allow the user to switch to the next or previous image -->
 						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 							<span class="sr-only">Previous</span>
@@ -156,6 +174,7 @@
 						</a>
 					</div>
 				</div>
+				<!-- Modal Box that is displayed when a user clicks on the button element inside the carousel -->
 				<!-- Modal JC-Angus Ranch-->
 				<div class="modal fade" id="jcModal" tabindex="-1" role="dialog" aria-labelledby="jcModalLabel" aria-hidden="true">
 					<div class="modal-dialog" role="document">
@@ -166,7 +185,9 @@
 									<span aria-hidden="true">&times;</span>
 								</button>
 							</div>
+							<!-- Main body of JC Angus Modal Box -->
 							<div class="modal-body">
+								<!-- Image displayed when modal box is visible -->
 								<img src="images/jcangus-ranch2.jpg" alt="Image of JC-Angus Ranch" class="img-fluid">
 								<hr>
 								<p>This is the first website I created. The purpose of the project was to provide a modern website
@@ -175,6 +196,7 @@
 									custom css styling and html to create a unique project based upon the skills I acquired.
 									The website uses only html and css to display animations and effects</p>
 							</div>
+							<!-- footer section of the modal box that contains the buttons allowing a user to dismiss the modal or visit the portfolio page -->
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
 								<button type="button" class="btn btn-light"><a href="http://jcangus.com">Go to Site</a></button>
@@ -192,7 +214,9 @@
 									<span aria-hidden="true">&times;</span>
 								</button>
 							</div>
+							<!-- Main body of the Taco Bear modal box -->
 							<div class="modal-body">
+								<!-- Image displayed when modal box is visible -->
 								<img src="images/taco-bear2.jpg" alt="Image of Taco Bear Challenge" class="img-fluid">
 								<hr>
 								<p>This is a fun landing page created for a challenge during Deep Dive Bootcamp.</p>
@@ -200,6 +224,7 @@
 									This site was created for mobile-first design and uses bootstrap components along with
 									custom css styling. This site can be further expanded to add additional pages and features.</p>
 							</div>
+							<!-- footer section of the modal box that contains the buttons allowing a user to dismiss the modal or visit the portfolio page -->
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
 								<button type="button" class="btn btn-light"><a href="https://bootcamp-coders.cnm.edu/~jisbell1/bootstrap-4-challenge/">Go to Site</a></button>
@@ -207,15 +232,18 @@
 						</div>
 					</div>
 				</div>
+				<!-- End Modal Box -->
 			</div>
 		</div>
-		<!-- Contact Form -->
+		<!-- End Portfolio Section -->
+		<!-- Begin Contact Form -->
 		<div class="container-fluid contact-section mb-5 pb-5" id="contact">
 			<div class="row justify-content-center py-4">
 				<h4 class="display-4">Contact</h4>
 			</div>
-			<!-- TODO: fix form for mailer -->
+			<!-- Main form of the contact section -->
 			<form id="contact-form" action="php/mail-config.php" method="post" class="col-md-8 offset-2 mx-auto">
+				<!-- Name section of the form -->
 				<div class="form-group">
 					<label for="contactFormName">Name</label>
 					<div class="input-group">
@@ -227,6 +255,7 @@
 						<input type="text" class="form-control" id="contactFormName" name="contactFormName" placeholder="Name">
 					</div>
 				</div>
+				<!-- Email section of the form -->
 				<div class="form-group">
 					<label for="contactFormEmail">Email</label>
 					<div class="input-group">
@@ -238,6 +267,7 @@
 						<input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" placeholder="Email">
 					</div>
 				</div>
+				<!-- Subject section of the form -->
 				<div class="form-group">
 					<label for="contactFormSubject">Subject</label>
 					<div class="input-group">
@@ -249,6 +279,7 @@
 						<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Subject Email">
 					</div>
 				</div>
+				<!-- Message section of the form -->
 				<div class="form-group">
 					<label for="contactFormMessage">Message</label>
 					<div class="input-group">
@@ -266,7 +297,7 @@
 
 				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 			</form>
-
+			<!-- End contact form section -->
 			<!--empty area for form error/success output-->
 			<div class="row">
 				<div class="col-xs-12">
@@ -274,9 +305,12 @@
 				</div>
 			</div>
 		</div>
+		<!-- End Main Body of the Page -->
+		<!-- Begin Footer Section -->
 		<footer class="footer py-3 fixed-bottom">
 			<div class="container">
 				<div class="row justify-content-center text-center">
+					<!-- Links to Social Media -->
 					<span class="footer-link"><a href="https://twitter.com/JoeIsbell8?lang=en"><i class="fab fa-twitter"></i></a></span>
 					<span class="footer-link"><a href="https://github.com/jisbell347"><i class="fab fa-github"></i></a></span>
 					<span class="footer-link"><a href="https://www.linkedin.com/in/joseph-isbell-5267b2163/"><i class="fab fa-linkedin"></i></a></span>
@@ -286,6 +320,7 @@
 				</div>
 			</div>
 		</footer>
+		<!-- End Footer Section -->
 	</body>
 
 </html>
