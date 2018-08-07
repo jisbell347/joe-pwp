@@ -10,6 +10,11 @@ html, body {
 	z-index: 5;
 }
 
+.nav-icon {
+	width: 35px;
+	height: 35px;
+}
+
 .nav-item {
 	box-shadow: 0 5px 5px rgba(82, 82, 82, 0.4);
 }
@@ -34,16 +39,19 @@ html, body {
 	background: url("../images/black-wood.jpg"), no-repeat;
 	background-size: cover;
 }
-.about-text{
+.about-text, .about-img{
 	border-right: none;
 	border-bottom: white 1px solid;
 	padding-bottom: 5px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
 	.about-text {
 		border-bottom: none;
 		border-right: white 1px solid;
+	}
+	.about-img {
+		border: none;
 	}
 }
 
