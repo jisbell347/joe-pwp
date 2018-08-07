@@ -30,6 +30,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#"><img src="images/hot-coffee-rounded-cup-on-a-plate-from-side-view.png" alt="Credit to Flaticon for the image" class="img-fluid nav-icon ml-4"/></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -42,7 +43,7 @@
 			</div>
 		</nav>
 		<div class="jumbotron jumbotron-fluid pt-0">
-			<img src="images/coffee-cup-on-decking.jpg" alt="Jumbotron BG Image">
+			<img src="images/coffee-cup-on-decking.jpg" alt="Jumbotron BG Image" />
 			<div class="container pt-5">
 				<h1 class="display-1 pt-5">Joseph Isbell</h1>
 				<p class="lead">Professional Web Developer | Coffee Lover</p>
@@ -53,16 +54,16 @@
 				<h3 class="text-light display-4 pt-4">About Me</h3>
 			</div>
 			<div class="row about-me p-5">
-				<div class="col-md-3 offset-1 mr-2">
-					<img src="images/self-portrait.jpg" alt="Picture of Self" class="img-fluid rounded-circle p-4" width="350px" height="350px">
+				<div class="col-lg-3 col-md-4 offset-1 mr-2 mb-3 about-img">
+					<img src="images/self-portrait.jpg" alt="Picture of Self" class="img-fluid rounded-circle p-4" width="350px" height="350px" />
 				</div>
-				<div class="col-md-3">
+				<div class="col-lg-3 col-md-6">
 					<p class="about-text text-light text-center border-light p-4">Hi, my name is Joe and I am a professional, full-stack web developer. I recently graduated from the
 						Deep Dive Bootcamp at the CNM Stemulus Center. I am passionate about coding and I love learning new
 						languages. As a life-long native of the Albuquerque area, I want to help grow the developing tech industry
 						here. Check out my portfolio or feel free to contact me anytime.</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4">
 					<div class="row justify-content-center">
 						<h3 class="text-light text-center display-5">Skillset <i class="fas fa-code text-light"></i></h3>
 					</div>
