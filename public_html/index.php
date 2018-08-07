@@ -6,7 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+		<!-- Link to own CSS Sheet -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 		<!-- JQuery first, then Popper.js, then Bootstrap.js -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -33,7 +37,7 @@
 				<div class="navbar-nav ml-auto">
 					<a class="nav-item nav-link " href="#about">About <span class="sr-only">(current)</span></a>
 					<a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-					<a class="nav-item nav-link" href="#">Contact</a>
+					<a class="nav-item nav-link" href="#contact">Contact</a>
 				</div>
 			</div>
 		</nav>
@@ -205,7 +209,7 @@
 			</div>
 		</div>
 		<!-- Contact Form -->
-		<div class="container-fluid contact-section mb-5 pb-5">
+		<div class="container-fluid contact-section mb-5 pb-5" id="contact">
 			<div class="row justify-content-center py-4">
 				<h4 class="display-4">Contact</h4>
 			</div>
