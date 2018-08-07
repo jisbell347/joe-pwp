@@ -20,4 +20,6 @@ Do you really want to hide  the image carousel in the mobile view? An image caro
 * CSS Tricks: https://css-tricks.com/
 * Google Fonts: https://fonts.google.com/
 * FancyBox3: http://fancyapps.com/fancybox/3/
-## Grade Tier IV
+## Moving Foreword
+We'll be building PWP in a file named index.php inside of /public_html. Please note that no site files should live outside of the /public_html directory. Please use an organized and standards-compliant directory structure to house all images, JavaScript, CSS, etc. We are done with the /documentation directory from here out!
+
