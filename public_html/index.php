@@ -26,6 +26,8 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!--Title of project -->
+<!--		Icon in tab. Credit to Flaticon.com for use of the image-->
+		<link rel="shortcut icon" type="image/png" href="images/coffee.png">
 		<title>Joseph Isbell's Portfolio</title>
 	</head>
 	<body>
@@ -199,7 +201,7 @@
 							<!-- footer section of the modal box that contains the buttons allowing a user to dismiss the modal or visit the portfolio page -->
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-light"><a href="http://jcangus.com">Go to Site</a></button>
+								<a href="http://jcangus.com" class="btn btn-light">Go to Site</a>
 							</div>
 						</div>
 					</div>
@@ -227,7 +229,7 @@
 							<!-- footer section of the modal box that contains the buttons allowing a user to dismiss the modal or visit the portfolio page -->
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-light"><a href="https://bootcamp-coders.cnm.edu/~jisbell1/bootstrap-4-challenge/">Go to Site</a></button>
+								<a href="https://bootcamp-coders.cnm.edu/~jisbell1/bootstrap-4-challenge/" class="btn btn-light">Go to Site</a>
 							</div>
 						</div>
 					</div>
