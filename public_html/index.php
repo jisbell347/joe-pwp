@@ -278,7 +278,7 @@
 								<i class="fas fa-spinner" aria-hidden="true"></i>
 							</span>
 						</div>
-						<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Subject Email">
+						<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Subject of Message">
 					</div>
 				</div>
 				<!-- Message section of the form -->
