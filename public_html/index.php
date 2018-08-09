@@ -27,7 +27,7 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!--Title of project -->
 <!--		Icon in tab. Credit to Flaticon.com for use of the image-->
-		<link rel="shortcut icon" type="image/png" href="images/coffee.png">
+		<link rel="shortcut icon" type="image/png" href="images/hot-coffee.png">
 		<title>Joseph Isbell's Portfolio</title>
 	</head>
 	<body>
