@@ -2,21 +2,21 @@
 <html lang="en">
 	<head>
 		<!--Meta Tags -->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
 		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet" />
 		<!-- Link to own CSS Sheet -->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<!-- JQuery first, then Popper.js, then Bootstrap.js -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
@@ -27,7 +27,7 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!--Title of project -->
 <!--		Icon in tab. Credit to Flaticon.com for use of the image-->
-		<link rel="shortcut icon" type="image/png" href="images/hot-coffee.png">
+		<link rel="shortcut icon" type="image/png" href="images/hot-coffee.png" />
 		<title>Joseph Isbell's Portfolio</title>
 	</head>
 	<body>
@@ -64,7 +64,7 @@
 			<!-- Left side of about me section containing image and short paragraph -->
 			<div class="row about-me p-5">
 				<div class="col-lg-3 col-md-4 offset-1 mr-2 mb-3 about-img">
-					<img src="images/self-portrait.jpg" alt="Picture of Self" class="img-fluid rounded-circle p-4" width="350px" height="350px" />
+					<img src="images/self-portrait.jpg" alt="Picture of Self" class="img-fluid rounded-circle p-4" />
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<p class="about-text text-light text-center border-light p-4">Hi, my name is Joe and I am a professional, full-stack web developer. I recently graduated from the
@@ -87,7 +87,7 @@
 					<div class="col-sm-6 mx-auto float-right">
 						<ul class="list-group">
 							<li class="list-group-item"><i class="fab fa-php text-light"> Php</i></li>
-							<li class="list-group-item"><i class="fab fa-angular text-light"></i> Angular5</li>
+							<li class="list-group-item"><i class="fab fa-angular text-light"></i> Angular6</li>
 							<li class="list-group-item"><i class="fas fa-database text-light"></i> mySQL</li>
 						</ul>
 					</div>
@@ -107,7 +107,7 @@
 				<div class="row d-block d-md-none">
 				<!--JC-Angus Ranch Card-->
 					<div class="card col-md-3 offset-md-3 p-3 mx-auto mb-5">
-						<img class="card-img-top img-fluid" src="images/jcangus-ranch.jpg" alt="JCAngus Ranch Site Photo" width="200px" height="150">
+						<img class="card-img-top img-fluid" src="images/jcangus-ranch.jpg" alt="JCAngus Ranch Site Photo" />
 						<div class="card-body">
 							<h5 class="card-title">JC-Angus</h5>
 							<p class="card-text">Beginning Website built for my family's ranching business</p>
@@ -119,7 +119,7 @@
 					<!--End JC-Angus Ranch Card -->
 					<!--Taco Bear Card-->
 					<div class="card col-md-3 offset-md-3 p-3 mx-auto mb-5">
-						<img class="card-img-top img-fluid" src="images/taco-bear.jpg" alt="Taco Bear Site Photo" width="200px" height="150">
+						<img class="card-img-top img-fluid" src="images/taco-bear.jpg" alt="Taco Bear Site Photo" />
 						<div class="card-body">
 							<h5 class="card-title">Taco Bear Site</h5>
 							<p class="card-text">A fun landing page that displays the flexibility and power of Bootstrap.</p>
@@ -142,7 +142,7 @@
 						<div class="carousel-inner">
 							<!-- JC Angus carousel version -->
 							<div class="carousel-item active">
-								<img class="d-block w-100 img-fluid" src="images/jcangus-ranch.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+								<img class="d-block w-100 img-fluid" src="images/jcangus-ranch.jpg?auto=yes&bg=777&fg=555" alt="First slide" />
 								<div class="carousel-caption">
 									<h5>JC Angus</h5>
 									<p  class= "d-none d-md-block">Beginning Website built for my family's cattle ranch.</p>
@@ -154,7 +154,7 @@
 							<!-- End JC Angus carousel -->
 							<!-- Taco Bear carousel -->
 							<div class="carousel-item taco-bear">
-								<img class="d-block w-100 img-fluid" src="images/taco-bear.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide" />
+								<img class="d-block w-100 img-fluid" src="images/taco-bear.jpg?auto=yes&bg=666&fg=444" alt="Second slide" />
 								<div class="carousel-caption">
 									<h5>Taco Bear</h5>
 									<p class= " d-none d-md-block">A fun landing page that displays the flexibility and power of Bootstrap.</p>
@@ -190,7 +190,7 @@
 							<!-- Main body of JC Angus Modal Box -->
 							<div class="modal-body">
 								<!-- Image displayed when modal box is visible -->
-								<img src="images/jcangus-ranch2.jpg" alt="Image of JC-Angus Ranch" class="img-fluid">
+								<img src="images/jcangus-ranch2.jpg" alt="Image of JC-Angus Ranch" class="img-fluid" />
 								<hr>
 								<p>This is the first website I created. The purpose of the project was to provide a modern website
 									for my family's cattle ranch.</p>
@@ -219,7 +219,7 @@
 							<!-- Main body of the Taco Bear modal box -->
 							<div class="modal-body">
 								<!-- Image displayed when modal box is visible -->
-								<img src="images/taco-bear2.jpg" alt="Image of Taco Bear Challenge" class="img-fluid">
+								<img src="images/taco-bear2.jpg" alt="Image of Taco Bear Challenge" class="img-fluid" />
 								<hr>
 								<p>This is a fun landing page created for a challenge during Deep Dive Bootcamp.</p>
 								<p>The website is used to display the power and flexibility of Bootstrap's grid system.
