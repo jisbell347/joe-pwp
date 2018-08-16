@@ -20,11 +20,11 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!-- Javascript Form Validator -->
 		<script src="js/form-validate.js"></script>
 
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!--Title of project -->
 <!--		Icon in tab. Credit to Flaticon.com for use of the image-->
 		<link rel="shortcut icon" type="image/png" href="images/hot-coffee.png" />
@@ -244,7 +244,7 @@
 				<h4 class="display-4">Contact</h4>
 			</div>
 			<!-- Main form of the contact section -->
-			<form id="contact-form" action="php/mail-config.php" method="post" class="col-md-8 offset-2 mx-auto">
+			<form id="contact-form" action="php/mailer.php" method="post" class="col-md-8 offset-2 mx-auto">
 				<!-- Name section of the form -->
 				<div class="form-group">
 					<label for="contactFormName">Name</label>
@@ -295,9 +295,10 @@
 				</div>
 				<!-- TODO: Get recaptcha API key -->
 				<!-- reCAPTCHA -->
-				<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+				<div class="g-recaptcha" data-sitekey="6LdRW2oUAAAAALBueb5-MP0WIh9V3W-8goZyArdA"></div>
 
 				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-danger" type="reset"><i class="fa fa-ban"></i> Reset</button>
 			</form>
 			<!-- End contact form section -->
 			<!--empty area for form error/success output-->
