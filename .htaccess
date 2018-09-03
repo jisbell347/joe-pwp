@@ -1,0 +1,10 @@
+# this forces SSL connection
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://acupofjoe.org/$1 [L]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^acupofjoe.org$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.acupofjoe.org$
+RewriteCond %{REQUEST_URI} !public_html/
+RewriteRule (.*) /public_html/$1 [L]
+
