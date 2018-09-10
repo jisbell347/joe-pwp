@@ -105,6 +105,18 @@
 				</div>
 				<!-- Mobile version of Portfolio section - websites are displayed using cards -->
 				<div class="row d-block d-md-none">
+					<!--Lost Paws Card-->
+					<div class="card col-md-3 offset-md-3 p-3 mx-auto mb-5">
+						<img class="card-img-top img-fluid" src="images/lost-paws.png" alt="Lost Paws" />
+						<div class="card-body">
+							<h5 class="card-title">Lost Paws</h5>
+							<p class="card-text">A fullstack site that allows users to post about animals they lost/found. </p>
+							<button type="button" class="btn btn-light" data-toggle="modal" data-target="#lostPawsModal">
+								Visit Project
+							</button>
+						</div>
+					</div>
+					<!--End Lost Paws Card -->
 				<!--JC-Angus Ranch Card-->
 					<div class="card col-md-3 offset-md-3 p-3 mx-auto mb-5">
 						<img class="card-img-top img-fluid" src="images/jcangus-ranch.jpg" alt="JCAngus Ranch Site Photo" />
@@ -293,7 +305,6 @@
 						<textarea class="form-control" rows="5" id="contactFormMessage" name="contactFormMessage" placeholder="Enter Message for Joe Here"></textarea>
 					</div>
 				</div>
-				<!-- TODO: Get recaptcha API key -->
 				<!-- reCAPTCHA -->
 				<div class="g-recaptcha" data-sitekey="6LdRW2oUAAAAALBueb5-MP0WIh9V3W-8goZyArdA"></div>
 
