@@ -154,12 +154,12 @@
 						<!-- Main section of the carousel -->
 						<div class="carousel-inner">
 							<!-- Lost Paws carousel version -->
-							<div class="carousel-item active">
+							<div class="carousel-item active lost-paws">
 								<img class="d-block w-100 img-fluid" src="images/lost-paws.png?auto=yes&bg=777&fg=555" alt="First slide" />
 								<div class="carousel-caption">
 									<h5>Lost Paws</h5>
 									<p  class= "d-none d-md-block">A fullstack site that allows users to post about animals they lost/found.</p>
-									<button type="button" class="btn btn-light" data-toggle="modal" data-target="#jcModal">
+									<button type="button" class="btn btn-light" data-toggle="modal" data-target="#lostPawsModal">
 										Visit Project
 									</button>
 								</div>

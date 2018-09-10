@@ -103,11 +103,17 @@ Portfolio Mobile Card Styling
 	color: black;
 	text-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
 }
+
+.lost-paws p, .lost-paws h5 {
+	background-color: #1b1c1b;
+	color: white;
+}
 /******************************
 Portfolio Modal Box Styling
  *****************************/
 #jcModal .modal-content, #tacoBearModal .modal-content {
 	background: url("../images/wood.jpg");
+	background-size: cover;
 }
 
 #jcModal a, #tacoBearModal a {
