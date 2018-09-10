@@ -202,6 +202,35 @@
 					</div>
 				</div>
 				<!-- Modal Box that is displayed when a user clicks on the button element inside the carousel -->
+				<!-- Modal Lost Paws-->
+				<div class="modal fade" id="lostPawsModal" tabindex="-1" role="dialog" aria-labelledby="lostPawsModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="lostPawsModalLabel">Lost Paws</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<!-- Main body of JC Angus Modal Box -->
+							<div class="modal-body">
+								<!-- Image displayed when modal box is visible -->
+								<img src="images/lost-paws-search.png" alt="Image of Lost Paws Search Section" class="img-fluid" />
+								<hr>
+								<p>This is a fullstack website designed by my capstone group as part of the Deep Dive Bootcamp.</p>
+								<p>The website incorporates both front and backend services including PHP7, mySQL, RESTful APIs, Angular6, HTML5, CSS3, Bootstrap and jQuery.
+									The site allows users to login using Google or Facebook and post about a pet they have either lost or found. Users can also upload images using Cloudinary. A user is able
+									to search for pets and filter through the search based on parameters they enter into a search field. Once signed in, users can also post comments about the animal.   </p>
+							</div>
+							<!-- footer section of the modal box that contains the buttons allowing a user to dismiss the modal or visit the portfolio page -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+								<!-- TODO: Update with correct URL once site is live! -->
+								<a href="localhost:7272" class="btn btn-light">Go to Site</a>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- Modal JC-Angus Ranch-->
 				<div class="modal fade" id="jcModal" tabindex="-1" role="dialog" aria-labelledby="jcModalLabel" aria-hidden="true">
 					<div class="modal-dialog" role="document">

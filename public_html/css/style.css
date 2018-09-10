@@ -111,7 +111,7 @@ Portfolio Mobile Card Styling
 /******************************
 Portfolio Modal Box Styling
  *****************************/
-#jcModal .modal-content, #tacoBearModal .modal-content {
+#jcModal .modal-content, #tacoBearModal .modal-content, #lostPawsModal .modal-content {
 	background: url("../images/wood.jpg");
 	background-size: cover;
 }
