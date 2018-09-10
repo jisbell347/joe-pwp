@@ -94,7 +94,7 @@ Portfolio Mobile Card Styling
 .card {
 	background: url("../images/black-wood.jpg"), no-repeat;
 	background-size: cover;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 }
 
@@ -112,8 +112,14 @@ Portfolio Mobile Card Styling
 Portfolio Modal Box Styling
  *****************************/
 #jcModal .modal-content, #tacoBearModal .modal-content, #lostPawsModal .modal-content {
-	background: url("../images/wood.jpg");
+	background: url("../images/outside-coffee.jpg");
 	background-size: cover;
+	background-position: center;
+}
+
+.modal-content p {
+	background-color: rgba(0,0,0,0.35);
+	padding: 10px;
 }
 
 #jcModal a, #tacoBearModal a {
