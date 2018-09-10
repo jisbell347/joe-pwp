@@ -149,12 +149,25 @@
 						<ol class="carousel-indicators">
 							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 						</ol>
 						<!-- Main section of the carousel -->
 						<div class="carousel-inner">
-							<!-- JC Angus carousel version -->
+							<!-- Lost Paws carousel version -->
 							<div class="carousel-item active">
-								<img class="d-block w-100 img-fluid" src="images/jcangus-ranch.jpg?auto=yes&bg=777&fg=555" alt="First slide" />
+								<img class="d-block w-100 img-fluid" src="images/lost-paws.png?auto=yes&bg=777&fg=555" alt="First slide" />
+								<div class="carousel-caption">
+									<h5>Lost Paws</h5>
+									<p  class= "d-none d-md-block">A fullstack site that allows users to post about animals they lost/found.</p>
+									<button type="button" class="btn btn-light" data-toggle="modal" data-target="#jcModal">
+										Visit Project
+									</button>
+								</div>
+							</div>
+							<!-- End Lost Paws carousel -->
+							<!-- JC Angus carousel version -->
+							<div class="carousel-item">
+								<img class="d-block w-100 img-fluid" src="images/jcangus-ranch.jpg?auto=yes&bg=555&fg=333" alt="First slide" />
 								<div class="carousel-caption">
 									<h5>JC Angus</h5>
 									<p  class= "d-none d-md-block">Beginning Website built for my family's cattle ranch.</p>
