@@ -217,7 +217,7 @@
 								<!-- Image displayed when modal box is visible -->
 								<img src="images/lost-paws-search.png" alt="Image of Lost Paws Search Section" class="img-fluid" />
 								<hr>
-								<p>This is a fullstack website designed by my capstone group as part of the Deep Dive Bootcamp.</p>
+								<p>This is a fullstack website designed by myself and the other three members of my capstone group as part of the Deep Dive Bootcamp at CNM.</p>
 								<p>The website incorporates both front and backend services including PHP7, mySQL, RESTful APIs, Angular6, HTML5, CSS3, Bootstrap and jQuery.
 									The site allows users to login using Google or Facebook and post about a pet they have either lost or found. Users can also upload images using Cloudinary. A user is able
 									to search for pets and filter through the search based on parameters they enter into a search field. Once signed in, users can also post comments about the animal.   </p>
