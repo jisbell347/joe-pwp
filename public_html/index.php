@@ -226,7 +226,7 @@
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
 								<!-- TODO: Update with correct URL once site is live! -->
-								<a href="localhost:7272" class="btn btn-light">Go to Site</a>
+								<a href="https://bootcamp-coders.cnm.edu/~jisbell1/lost-paws/public_html/" class="btn btn-light">Go to Site</a>
 							</div>
 						</div>
 					</div>
