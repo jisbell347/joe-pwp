@@ -82,10 +82,12 @@
 							<li class="list-group-item"><i class="fab fa-html5 text-light"> HTML 5</i></li>
 							<li class="list-group-item"><i class="fab fa-css3 text-light"> CSS 3</i></li>
 							<li class="list-group-item"><i class="fab fa-js text-light"></i> JavaScript</li>
+							<li class="list-group-item"><i class="fab fa-react"></i> React</li>
 						</ul>
 					</div>
 					<div class="col-sm-6 mx-auto float-right">
 						<ul class="list-group">
+							<li class="list-group-item"><i class="fab fa-vuejs"></i> VueJs</i></li>
 							<li class="list-group-item"><i class="fab fa-php text-light"> Php</i></li>
 							<li class="list-group-item"><i class="fab fa-angular text-light"></i> Angular6</li>
 							<li class="list-group-item"><i class="fas fa-database text-light"></i> mySQL</li>
